@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "drupal/dropzonejs ": "*",
+        "drupal/dropzonejs": "*",
         "enyo/dropzone": "*",
         "drupal/media_library_edit": "*",
         "drupal/media_bulk_upload": "*"
