@@ -11,7 +11,6 @@
         }
     ],
     "require": {
-        "drupal/dropzonejs": "*",
         "drupal/entity_browser": "*",
         "drupal/inline_entity_form": "*",
         "drupal/media_bulk_upload": "*",
