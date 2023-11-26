@@ -16,6 +16,6 @@
         "drupal/inline_entity_form": "*",
         "drupal/media_bulk_upload": "*",
         "drupal/media_library_edit": "*",
-        "enyo/dropzone": "v5.7.2",
+        "enyo/dropzone": "v5.7.2"
     }
 }
