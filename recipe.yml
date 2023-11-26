@@ -1,0 +1,31 @@
+name: 'Media Experience'
+description: 'Adds configuration for Media editing.'
+type: 'Site'
+# ##############################################################################
+# Install modules
+# ##############################################################################
+install:
+  # Core modules
+  - media
+  - media_library
+  - views
+  # Contrib modules
+  - dropzonejs
+  - entity_browser
+  - entity_browser_entity_form
+  - inline_entity_form
+  - media_bulk_upload
+  - media_library_edit
+
+# ##############################################################################
+# Import only the configuration we want.
+# ##############################################################################
+config:
+  import:
+    # Core.
+    media: '*'
+    media_library: '*'
+    views: '*'
+    # Contrib.
+    dropzonejs: '*'
+    responsive_tables_filter: '*'
