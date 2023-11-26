@@ -10,7 +10,6 @@ install:
   - media_library
   - views
   # Contrib modules
-  #- dropzonejs
   - entity_browser
   - entity_browser_entity_form
   - inline_entity_form
@@ -26,5 +25,3 @@ config:
     media: '*'
     media_library: '*'
     views: '*'
-    # Contrib.
-    #dropzonejs: '*'
