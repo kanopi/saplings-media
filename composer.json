@@ -1,6 +1,6 @@
 {
-    "name": "kanopi/media-experience",
-    "description": "Adds configuration for Media editing.",
+    "name": "kanopi/saplings-media",
+    "description": "Configures media best practices for modern Drupal.",
     "keywords": ["recipe", "Drupal recipes", "drupal recipe"],
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
@@ -14,5 +14,11 @@
         "drupal/entity_browser": "*",
         "drupal/inline_entity_form": "*",
         "drupal/media_library_edit": "*"
+    },
+    "suggest": {
+        "kanopi/gin-admin-experience": "A simple Drupal Recipe for installing and configuring the Gin admin theme and supporting base modules.",
+        "kanopi/saplings-base": "Simple base configuration for modern Drupal.",
+        "kanopi/saplings-editorial": "Configures a rich editing experience for modern Drupal.",
+        "kanopi/saplings-launch": "Configures best practices for launching modern Drupal."
     }
 }

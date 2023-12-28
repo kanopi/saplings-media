@@ -1,5 +1,7 @@
-# Drupal Media Experience Recipe
+# Saplings - Media
 
-Congigures a great administration experience for Drupal media.
+Configures media best practices for modern Drupal.
 
-Imports configuration only from the Media Entity Browser module to work best with the Gin admin theme.
+* Adds Drupal Standard profile Media entities.
+* Imports configuration only from the Media Entity Browser module to work best
+with the Gin admin theme.

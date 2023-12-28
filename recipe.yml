@@ -1,5 +1,5 @@
-name: 'Media Experience'
-description: 'Adds configuration for Media editing.'
+name: 'Saplings - Media'
+description: 'Configures media best practices for modern Drupal.'
 type: 'Site'
 install:
   # Core modules
