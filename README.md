@@ -6,4 +6,4 @@ Configures media best practices for modern Drupal.
 * Imports configuration only from the Media Entity Browser module to work best
 with the Gin admin theme.
 
-@TODO Add `drupal/media_bulk_upload` and dependencies.
+@TODO Add `drupal/media_bulk_upload` or similar for bulk media uploading.
