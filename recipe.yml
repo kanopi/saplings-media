@@ -1,7 +1,8 @@
 name: 'Saplings - Media'
 description: 'Configures media best practices for modern Drupal.'
 type: 'Site'
-recipes: imagemagick-configuration
+recipes: 
+  - imagemagick-configuration
 install:
   # Core modules
   - file
