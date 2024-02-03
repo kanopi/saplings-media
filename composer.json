@@ -14,7 +14,8 @@
         "drupal/entity_browser": "*",
         "drupal/inline_entity_form": "*",
         "drupal/media_library_edit": "^3.0",
-        "kanopi/imagemagick-configuration": "^0.1.6"
+        "kanopi/imagemagick-configuration": "^0.1.6",
+        "kanopi/saplings-images": "*"
     },
     "suggest": {
         "kanopi/gin-admin-experience": "A simple Drupal Recipe for installing and configuring the Gin admin theme and supporting base modules.",
