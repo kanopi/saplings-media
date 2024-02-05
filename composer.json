@@ -12,10 +12,12 @@
     ],
     "require": {
         "drupal/entity_browser": "*",
+        "drupal/focal_point": "*",
+        "kanopi/imagemagick-configuration": "^0.1.6",
         "drupal/inline_entity_form": "*",
         "drupal/media_library_edit": "^3.0",
-        "kanopi/imagemagick-configuration": "^0.1.6",
-        "kanopi/saplings-images": "*"
+        "drupal/nomarkup": "*",
+        "kanopi/saplings_custom": "*"
     },
     "suggest": {
         "kanopi/gin-admin-experience": "A simple Drupal Recipe for installing and configuring the Gin admin theme and supporting base modules.",

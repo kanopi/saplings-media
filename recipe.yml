@@ -3,7 +3,6 @@ description: 'Configures media best practices for modern Drupal.'
 type: 'Site'
 recipes: 
   - imagemagick-configuration
-  - saplings-images
 install:
   # Core modules
   - file
@@ -11,12 +10,16 @@ install:
   - media
   - media_library
   - path
+  - responsive_image
   - views
   # Contrib modules
   - entity_browser
   - entity_browser_entity_form
+  - focal_point
   - inline_entity_form
   - media_library_edit
+  - nomarkup
+  - saplings_custom
 config:
   import:
     # Core.

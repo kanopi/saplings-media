@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: sa_5_4_1320
+label: '5:4 - 1320x1056'
+effects:
+  af8fdbe8-c520-48e7-9d96-d1dd77f5e2b8:
+    uuid: af8fdbe8-c520-48e7-9d96-d1dd77f5e2b8
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1320
+      height: 1056
+      crop_type: focal_point
+  2b810ce8-b05a-4c34-a55e-ab0cacd3259e:
+    uuid: 2b810ce8-b05a-4c34-a55e-ab0cacd3259e
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

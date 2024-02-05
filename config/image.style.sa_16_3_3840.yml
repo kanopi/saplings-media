@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: sa_16_3_3840
+label: '16:3 - 3840x720'
+effects:
+  06050faa-c888-4d12-b9fb-b1c764e84d03:
+    uuid: 06050faa-c888-4d12-b9fb-b1c764e84d03
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 3840
+      height: 720
+      crop_type: focal_point
+  e817a91a-44a2-45e7-98d8-a3a10531adac:
+    uuid: e817a91a-44a2-45e7-98d8-a3a10531adac
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
