@@ -4,6 +4,8 @@ dependencies:
   config:
     - image.style.sa_16_9_1280
     - image.style.sa_16_9_1920
+    - image.style.sa_16_9_2640
+    - image.style.sa_16_9_3840
     - image.style.sa_16_9_768
     - image.style.sa_16_9_960
   module:
@@ -16,8 +18,10 @@ image_style_mappings:
     image_mapping:
       sizes: 100vw
       sizes_image_styles:
+        - sa_16_9_3840
         - sa_16_9_1280
         - sa_16_9_1920
+        - sa_16_9_2640
         - sa_16_9_768
         - sa_16_9_960
     breakpoint_id: saplings_custom.retina
@@ -27,8 +31,10 @@ image_style_mappings:
     image_mapping:
       sizes: 100vw
       sizes_image_styles:
+        - sa_16_9_3840
         - sa_16_9_1280
         - sa_16_9_1920
+        - sa_16_9_2640
         - sa_16_9_768
         - sa_16_9_960
     breakpoint_id: saplings_custom.retina
