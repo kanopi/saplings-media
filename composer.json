@@ -13,10 +13,10 @@
     "require": {
         "drupal/entity_browser": "*",
         "drupal/focal_point": "*",
-        "kanopi/imagemagick-configuration": "^0.1.6",
         "drupal/inline_entity_form": "*",
         "drupal/media_library_edit": "^3.0",
         "drupal/nomarkup": "*",
+        "kanopi/imagemagick-configuration": "*",
         "kanopi/saplings_custom": "*"
     },
     "suggest": {
