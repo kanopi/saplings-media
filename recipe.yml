@@ -3,6 +3,7 @@ description: 'Configures media best practices for modern Drupal.'
 type: 'Site'
 recipes: 
   - imagemagick-configuration
+  - remote-video-youtube-lite
 install:
   # Core modules
   - file
