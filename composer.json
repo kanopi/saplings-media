@@ -17,7 +17,6 @@
         "drupal/media_library_edit": "^3.0",
         "drupal/nomarkup": "*",
         "kanopi/imagemagick-configuration": "*",
-        "kanopi/remote-video-youtube-lite": "*",
         "kanopi/saplings_custom": "*"
     },
     "suggest": {
