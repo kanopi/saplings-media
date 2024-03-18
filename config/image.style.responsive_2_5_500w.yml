@@ -1,0 +1,21 @@
+uuid: 70697aa0-1842-4c69-87d4-ff6ee1dfe94b
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_2_5_500w
+label: responsive_2_5_500w
+effects:
+  6c0345ca-2591-4962-ae65-16ddb5888884:
+    uuid: 6c0345ca-2591-4962-ae65-16ddb5888884
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 500
+      height: 1250
+      anchor: center-center
+  e8389428-97a7-41b0-8f80-0078f5d30366:
+    uuid: e8389428-97a7-41b0-8f80-0078f5d30366
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

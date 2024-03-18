@@ -1,0 +1,21 @@
+uuid: 521fd90b-406c-41dd-a559-dc8c39878691
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_9_21_1000w
+label: responsive_9_21_1000w
+effects:
+  c64d22ee-2d1c-42ef-aa9b-9383645e216a:
+    uuid: c64d22ee-2d1c-42ef-aa9b-9383645e216a
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 1000
+      height: 2333
+      anchor: center-center
+  1bca220a-a840-4c93-b450-473cd20c55be:
+    uuid: 1bca220a-a840-4c93-b450-473cd20c55be
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

@@ -1,0 +1,21 @@
+uuid: 873bbba7-e9c8-4eac-91da-414d549af15b
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_3000w
+label: responsive_3000w
+effects:
+  e19d84bc-50f4-4e01-8c0d-2247ad42c94e:
+    uuid: e19d84bc-50f4-4e01-8c0d-2247ad42c94e
+    id: image_scale
+    weight: null
+    data:
+      width: 3000
+      height: null
+      upscale: true
+  c2820a05-22af-41db-84a7-2894c4657706:
+    uuid: c2820a05-22af-41db-84a7-2894c4657706
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

@@ -1,0 +1,32 @@
+uuid: 4c870480-5d94-43ee-b738-55904b1c108d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.easy_reponsive_images
+    - field.field.media.image.field_media_image
+    - image.style.large
+    - media.type.image
+  module:
+    - image
+id: media.image.easy_reponsive_images
+targetEntityType: media
+bundle: image
+mode: easy_reponsive_images
+content:
+  field_media_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

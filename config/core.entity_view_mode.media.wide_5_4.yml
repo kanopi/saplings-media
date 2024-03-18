@@ -1,0 +1,11 @@
+uuid: 469fb335-2477-404d-aef8-56d440c5bd80
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.wide_5_4
+label: 'Wide 5:4'
+description: ''
+targetEntityType: media
+cache: true

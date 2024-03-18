@@ -1,0 +1,11 @@
+uuid: fb99ee5b-4578-41f1-adde-84df9e72c84e
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.tall_9_16
+label: 'Tall 9:16'
+description: ''
+targetEntityType: media
+cache: true

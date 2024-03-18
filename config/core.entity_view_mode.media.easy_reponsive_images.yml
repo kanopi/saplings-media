@@ -1,0 +1,11 @@
+uuid: ad384bf8-d3be-4b27-ad80-d69345a01d21
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.easy_reponsive_images
+label: 'Easy Reponsive Images'
+description: ''
+targetEntityType: media
+cache: true

@@ -1,0 +1,11 @@
+uuid: 7a004abe-d83a-492a-9c4f-f0d32a378260
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.wide_16_9
+label: 'Wide 16:9'
+description: ''
+targetEntityType: media
+cache: true

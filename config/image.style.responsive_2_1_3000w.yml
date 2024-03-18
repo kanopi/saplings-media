@@ -1,0 +1,21 @@
+uuid: a67d2c3a-3df2-4f1f-8493-3a325577ba5c
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_2_1_3000w
+label: responsive_2_1_3000w
+effects:
+  cb63caa6-3a1c-4dd3-83cc-1d2e67c040a0:
+    uuid: cb63caa6-3a1c-4dd3-83cc-1d2e67c040a0
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 3000
+      height: 1500
+      anchor: center-center
+  2e2d79c4-61c9-4ee6-af1f-7725715721e3:
+    uuid: 2e2d79c4-61c9-4ee6-af1f-7725715721e3
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

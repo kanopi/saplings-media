@@ -1,0 +1,21 @@
+uuid: 43fba24c-7013-4fe4-9993-696e7ec0c21a
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_2000w
+label: responsive_2000w
+effects:
+  34e682c9-daaa-4d90-9c42-62a2d92f4c04:
+    uuid: 34e682c9-daaa-4d90-9c42-62a2d92f4c04
+    id: image_scale
+    weight: null
+    data:
+      width: 2000
+      height: null
+      upscale: true
+  b457fb4b-314b-483e-beae-fca6f2d1946b:
+    uuid: b457fb4b-314b-483e-beae-fca6f2d1946b
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

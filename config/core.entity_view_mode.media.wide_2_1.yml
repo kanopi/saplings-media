@@ -1,0 +1,11 @@
+uuid: 588baa90-e279-40ad-a897-b0b36eb2f63c
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.wide_2_1
+label: 'Wide 2:1'
+description: ''
+targetEntityType: media
+cache: true

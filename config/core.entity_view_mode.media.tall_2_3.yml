@@ -1,0 +1,11 @@
+uuid: a1a66ab3-d643-484f-b7d3-72be28b01859
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.tall_2_3
+label: 'Tall 2:3'
+description: ''
+targetEntityType: media
+cache: true

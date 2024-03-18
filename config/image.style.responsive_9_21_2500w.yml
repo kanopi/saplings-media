@@ -1,0 +1,21 @@
+uuid: 0b91e23e-9ed2-425d-90f7-2536034b9cde
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_9_21_2500w
+label: responsive_9_21_2500w
+effects:
+  02bc6471-5025-4b86-955a-ed222550d649:
+    uuid: 02bc6471-5025-4b86-955a-ed222550d649
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 2500
+      height: 5833
+      anchor: center-center
+  fad86036-304a-41ca-adcf-5d4ff54cf2ef:
+    uuid: fad86036-304a-41ca-adcf-5d4ff54cf2ef
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

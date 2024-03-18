@@ -1,0 +1,35 @@
+uuid: 66b45c4f-95f9-43d0-97f0-6574f78471bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.tall_3_4
+    - field.field.media.image.field_media_image
+    - media.type.image
+  module:
+    - easy_responsive_images
+id: media.image.tall_3_4
+targetEntityType: media
+bundle: image
+mode: tall_3_4
+content:
+  field_media_image:
+    type: easy_responsive_images
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_handling: aspect_ratio
+      aspect_ratio: '3_4'
+      multiplier: 1x
+      image_loading:
+        attribute: lazy
+      cover: 0
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,21 @@
+uuid: 5cbbbd18-cb5b-407b-883c-7880d865eae7
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_9_16_1000w
+label: responsive_9_16_1000w
+effects:
+  cb3a6203-a1c0-474e-ba12-1034ca2c8616:
+    uuid: cb3a6203-a1c0-474e-ba12-1034ca2c8616
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 1000
+      height: 1777
+      anchor: center-center
+  9d58d326-e2cd-4925-b351-673bf2968141:
+    uuid: 9d58d326-e2cd-4925-b351-673bf2968141
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp
