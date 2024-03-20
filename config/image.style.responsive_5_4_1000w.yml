@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_5_4_1000w
+label: responsive_5_4_1000w
+effects:
+  46e7ed87-5e5a-40f1-bf4b-79d93c8ab649:
+    uuid: 46e7ed87-5e5a-40f1-bf4b-79d93c8ab649
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 1000
+      height: 800
+      anchor: center-center
+  aff7ac1c-8dcd-480e-a754-8d9781a80413:
+    uuid: aff7ac1c-8dcd-480e-a754-8d9781a80413
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

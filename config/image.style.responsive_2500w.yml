@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_2500w
+label: responsive_2500w
+effects:
+  772330cb-d9bc-4677-b6b5-2f6b18929a14:
+    uuid: 772330cb-d9bc-4677-b6b5-2f6b18929a14
+    id: image_scale
+    weight: null
+    data:
+      width: 2500
+      height: null
+      upscale: true
+  9713690d-06fc-4f2c-ab15-236f2d2e4689:
+    uuid: 9713690d-06fc-4f2c-ab15-236f2d2e4689
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

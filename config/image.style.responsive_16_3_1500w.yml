@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_16_3_1500w
+label: responsive_16_3_1500w
+effects:
+  170dd780-5350-4376-b612-d9284adc2077:
+    uuid: 170dd780-5350-4376-b612-d9284adc2077
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 1500
+      height: 281
+      anchor: center-center
+  74eda9d4-bba6-4cfb-b7fa-d252f4ffdb3b:
+    uuid: 74eda9d4-bba6-4cfb-b7fa-d252f4ffdb3b
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

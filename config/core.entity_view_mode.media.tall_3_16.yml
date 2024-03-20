@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.tall_3_16
+label: 'Tall 3:16'
+description: ''
+targetEntityType: media
+cache: true

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.wide_5_2
+label: 'Wide 5:2'
+description: ''
+targetEntityType: media
+cache: true

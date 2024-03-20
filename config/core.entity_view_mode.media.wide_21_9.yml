@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.wide_21_9
+label: 'Wide 21:9'
+description: ''
+targetEntityType: media
+cache: true

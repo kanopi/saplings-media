@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.tall_2_5
+label: 'Tall 2:5'
+description: ''
+targetEntityType: media
+cache: true

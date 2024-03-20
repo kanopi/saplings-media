@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_3_16_2000w
+label: responsive_3_16_2000w
+effects:
+  d5cdd20a-c7f7-4fbd-b0cb-444706c17dcc:
+    uuid: d5cdd20a-c7f7-4fbd-b0cb-444706c17dcc
+    id: image_scale_and_crop
+    weight: null
+    data:
+      width: 2000
+      height: 10666
+      anchor: center-center
+  5e8b5b90-743d-449c-b564-22fd61dd9614:
+    uuid: 5e8b5b90-743d-449c-b564-22fd61dd9614
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

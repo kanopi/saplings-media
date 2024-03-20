@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.wide_4_3
+label: 'Wide 4:3'
+description: ''
+targetEntityType: media
+cache: true

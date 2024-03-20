@@ -11,6 +11,7 @@ install:
   - media_library
   - path
   - responsive_image
+  - easy_responsive_images
   - views
   # Contrib modules
   - entity_browser

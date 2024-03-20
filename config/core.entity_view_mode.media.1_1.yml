@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.1_1
+label: '1:1'
+description: ''
+targetEntityType: media
+cache: true
