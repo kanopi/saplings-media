@@ -4,24 +4,26 @@ dependencies:
   config:
     - core.entity_view_mode.media.easy_reponsive_images
     - field.field.media.image.field_media_image
-    - image.style.large
     - media.type.image
   module:
-    - image
+    - easy_responsive_images
 id: media.image.easy_reponsive_images
 targetEntityType: media
 bundle: image
 mode: easy_reponsive_images
 content:
   field_media_image:
-    type: image
+    type: easy_responsive_images
     label: visually_hidden
     settings:
       image_link: ''
-      image_style: large
+      image_handling: scale
+      aspect_ratio: '16_3'
+      multiplier: 1x
       image_loading:
         attribute: lazy
-    third_party_settings: {  }
+      cover: 0
+      image_style: ''
     weight: 0
     region: content
 hidden:
