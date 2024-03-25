@@ -11,6 +11,7 @@
         }
     ],
     "require": {
+        "drupal/easy_responsive_images": "*",
         "drupal/entity_browser": "*",
         "drupal/focal_point": "*",
         "drupal/inline_entity_form": "*",
