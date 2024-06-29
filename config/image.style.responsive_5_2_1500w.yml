@@ -1,17 +1,19 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - focal_point
 name: responsive_5_2_1500w
 label: responsive_5_2_1500w
 effects:
   173a408c-4517-484e-86b6-8ed0a4840abd:
     uuid: 173a408c-4517-484e-86b6-8ed0a4840abd
-    id: image_scale_and_crop
+    id: focal_point_scale_and_crop
     weight: null
     data:
       width: 1500
       height: 600
-      anchor: center-center
+      crop_type: focal_point
   47f1b05f-ecba-4c1f-b10c-9cff10997a8c:
     uuid: 47f1b05f-ecba-4c1f-b10c-9cff10997a8c
     id: image_convert
