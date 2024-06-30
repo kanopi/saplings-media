@@ -1,17 +1,19 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - focal_point
 name: responsive_3_4_3000w
 label: responsive_3_4_3000w
 effects:
   61f493f7-66a5-4c2a-a50f-cb42fe2af914:
     uuid: 61f493f7-66a5-4c2a-a50f-cb42fe2af914
-    id: image_scale_and_crop
+    id: focal_point_scale_and_crop
     weight: null
     data:
       width: 3000
       height: 4000
-      anchor: center-center
+      crop_type: focal_point
   1bc08412-241f-49b1-8aac-995d817d2f79:
     uuid: 1bc08412-241f-49b1-8aac-995d817d2f79
     id: image_convert
