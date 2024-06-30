@@ -16,6 +16,7 @@ install:
   - inline_entity_form
   - lite_youtube_embed
   - media_entity_browser
+  - media_entity_download
   - media_file_delete
   - media_library_edit
   - views
@@ -668,3 +669,4 @@ config:
                 - url.query_args
                 - user.permissions
               tags: {  }
+  
