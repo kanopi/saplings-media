@@ -50,14 +50,6 @@ config:
           third_party_settings: {  }
           weight: 0
           region: content
-    # Set the default Easy Responsive Image settings.
-    easy_responsive_images.settings:
-      ensure_exists:
-        id: easy_responsive_images.settings
-        threshold_width: '500'
-        minimum_width: '500'
-        maximum_width: '3000'
-        aspect_ratios: "21:9\r\n16:9\r\n16:3\r\n5:4\r\n5:2\r\n4:3\r\n3:2\r\n2:1\r\n1:1\r\n9:21\r\n9:16\r\n4:5\r\n3:16\r\n3:4\r\n2:5\r\n2:3\r\n1:2"
     # Delete the file when you delete a media entity.
     media_file_delete.settings:
       simple_config_update:
@@ -72,76 +64,6 @@ config:
         #   value: false
     # Lets add Media Entity Browsers if they don't exist.
     # The module does not work with Gin, so we will add like this.
-    entity_browser.browser.media_entity_browser:
-      ensure_exists:
-        name: media_entity_browser
-        label: 'Media Entity Browser'
-        display: iframe
-        display_configuration:
-          width: '1070'
-          height: '500'
-          link_text: 'Select media'
-          auto_open: true
-        selection_display: no_display
-        selection_display_configuration: {  }
-        widget_selector: tabs
-        widget_selector_configuration: {  }
-        widgets:
-          6586703a-6976-4124-8a49-cbb07ceaa3b1:
-            settings:
-              view: media_entity_browser
-              view_display: media_browser_all
-              submit_text: 'Select media'
-              auto_select: false
-            uuid: 6586703a-6976-4124-8a49-cbb07ceaa3b1
-            weight: -9
-            label: 'Choose existing media'
-            id: view
-          ecb3940b-e53b-4bc5-acb5-930d8780ea2f:
-            settings:
-              entity_type: media
-              bundle: image
-              form_mode: default
-              submit_text: 'Save image'
-            uuid: ecb3940b-e53b-4bc5-acb5-930d8780ea2f
-            weight: -10
-            label: 'Upload new image'
-            id: entity_form
-    entity_browser.browser.media_entity_browser_modal:
-      ensure_exists:
-        name: media_entity_browser_modal
-        label: 'Media Entity Browser (Modal)'
-        display: modal
-        display_configuration:
-          width: '1070'
-          height: '500'
-          link_text: 'Select media'
-          auto_open: true
-        selection_display: no_display
-        selection_display_configuration: {  }
-        widget_selector: tabs
-        widget_selector_configuration: {  }
-        widgets:
-          fc729026-c85f-4561-acd5-38d4082b69fb:
-            settings:
-              view: media_entity_browser
-              view_display: media_browser_all
-              submit_text: 'Select media'
-              auto_select: false
-            uuid: fc729026-c85f-4561-acd5-38d4082b69fb
-            weight: -9
-            label: 'Choose existing media'
-            id: view
-          9769d4e4-1f9c-4313-8b01-fe8cff8aa5a1:
-            settings:
-              entity_type: media
-              bundle: image
-              form_mode: default
-              submit_text: 'Save image'
-            uuid: 9769d4e4-1f9c-4313-8b01-fe8cff8aa5a1
-            weight: -10
-            label: 'Upload new image'
-            id: entity_form
     views.view.media_entity_browser:
       ensure_exists:
         id: media_entity_browser
@@ -669,4 +591,74 @@ config:
                 - url.query_args
                 - user.permissions
               tags: {  }
+    entity_browser.browser.media_entity_browser:
+      ensure_exists:
+        name: media_entity_browser
+        label: 'Media Entity Browser'
+        display: iframe
+        display_configuration:
+          width: '1070'
+          height: '500'
+          link_text: 'Select media'
+          auto_open: true
+        selection_display: no_display
+        selection_display_configuration: {  }
+        widget_selector: tabs
+        widget_selector_configuration: {  }
+        widgets:
+          6586703a-6976-4124-8a49-cbb07ceaa3b1:
+            settings:
+              view: media_entity_browser
+              view_display: media_browser_all
+              submit_text: 'Select media'
+              auto_select: false
+            uuid: 6586703a-6976-4124-8a49-cbb07ceaa3b1
+            weight: -9
+            label: 'Choose existing media'
+            id: view
+          ecb3940b-e53b-4bc5-acb5-930d8780ea2f:
+            settings:
+              entity_type: media
+              bundle: image
+              form_mode: default
+              submit_text: 'Save image'
+            uuid: ecb3940b-e53b-4bc5-acb5-930d8780ea2f
+            weight: -10
+            label: 'Upload new image'
+            id: entity_form
+    entity_browser.browser.media_entity_browser_modal:
+      ensure_exists:
+        name: media_entity_browser_modal
+        label: 'Media Entity Browser (Modal)'
+        display: modal
+        display_configuration:
+          width: '1070'
+          height: '500'
+          link_text: 'Select media'
+          auto_open: true
+        selection_display: no_display
+        selection_display_configuration: {  }
+        widget_selector: tabs
+        widget_selector_configuration: {  }
+        widgets:
+          fc729026-c85f-4561-acd5-38d4082b69fb:
+            settings:
+              view: media_entity_browser
+              view_display: media_browser_all
+              submit_text: 'Select media'
+              auto_select: false
+            uuid: fc729026-c85f-4561-acd5-38d4082b69fb
+            weight: -9
+            label: 'Choose existing media'
+            id: view
+          9769d4e4-1f9c-4313-8b01-fe8cff8aa5a1:
+            settings:
+              entity_type: media
+              bundle: image
+              form_mode: default
+              submit_text: 'Save image'
+            uuid: 9769d4e4-1f9c-4313-8b01-fe8cff8aa5a1
+            weight: -10
+            label: 'Upload new image'
+            id: entity_form
   
