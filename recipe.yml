@@ -49,6 +49,11 @@ config:
     media_file_delete.settings:
       simple_config_update:
         delete_file_default: true
+    # Allow all users to download media.
+    user.role.anonymous:
+      grantPermission: 'download media'
+    user.role.authenticated:
+      grantPermission: 'download media'
     # @TODO Hide core's Files view that Local Video recipe imports.
     views.view.files:
       ensure_exists:
