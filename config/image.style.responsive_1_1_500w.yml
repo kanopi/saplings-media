@@ -6,16 +6,16 @@ dependencies:
 name: responsive_1_1_500w
 label: responsive_1_1_500w
 effects:
-  8032906e-9ce5-464d-a158-8f3d3f4f50d8:
-    uuid: 8032906e-9ce5-464d-a158-8f3d3f4f50d8
+  7ec76582-3f3b-4385-8fb8-cdde9d9e0a35:
+    uuid: 7ec76582-3f3b-4385-8fb8-cdde9d9e0a35
     id: focal_point_scale_and_crop
-    weight: -10
+    weight: null
     data:
       width: 500
       height: 500
       crop_type: focal_point
-  8fae5691-6c16-46f6-8764-676d3d227bef:
-    uuid: 8fae5691-6c16-46f6-8764-676d3d227bef
+  d842bce8-c029-4372-89d4-3726f814ce31:
+    uuid: d842bce8-c029-4372-89d4-3726f814ce31
     id: image_convert
     weight: 10
     data:
