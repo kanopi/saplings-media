@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_1850w
+label: responsive_1850w
+effects:
+  ab275156-e3b2-4708-b986-1ded41d9ec42:
+    uuid: ab275156-e3b2-4708-b986-1ded41d9ec42
+    id: image_scale
+    weight: null
+    data:
+      width: 1850
+      height: null
+      upscale: true
+  e73f5a36-1704-4025-b236-6a87939d9bbd:
+    uuid: e73f5a36-1704-4025-b236-6a87939d9bbd
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

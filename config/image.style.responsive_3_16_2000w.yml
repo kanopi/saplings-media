@@ -6,16 +6,16 @@ dependencies:
 name: responsive_3_16_2000w
 label: responsive_3_16_2000w
 effects:
-  d5cdd20a-c7f7-4fbd-b0cb-444706c17dcc:
-    uuid: d5cdd20a-c7f7-4fbd-b0cb-444706c17dcc
+  66191804-6e74-485e-a17c-12b2e3c4a89b:
+    uuid: 66191804-6e74-485e-a17c-12b2e3c4a89b
     id: focal_point_scale_and_crop
     weight: null
     data:
       width: 2000
       height: 10666
       crop_type: focal_point
-  5e8b5b90-743d-449c-b564-22fd61dd9614:
-    uuid: 5e8b5b90-743d-449c-b564-22fd61dd9614
+  a15788db-2cf4-439d-9e26-660fbc92fb3c:
+    uuid: a15788db-2cf4-439d-9e26-660fbc92fb3c
     id: image_convert
     weight: 10
     data:

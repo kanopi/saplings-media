@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: responsive_16_3_350w
+label: responsive_16_3_350w
+effects:
+  a7bf726b-3c04-448c-a5cc-16d9ebfa1a15:
+    uuid: a7bf726b-3c04-448c-a5cc-16d9ebfa1a15
+    id: focal_point_scale_and_crop
+    weight: null
+    data:
+      width: 350
+      height: 65
+      crop_type: focal_point
+  dce79a44-4b96-4de5-b24b-b09f1683813d:
+    uuid: dce79a44-4b96-4de5-b24b-b09f1683813d
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

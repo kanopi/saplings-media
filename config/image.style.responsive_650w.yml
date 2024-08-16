@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_650w
+label: responsive_650w
+effects:
+  476a7f4e-31d8-4a6f-9175-d66e2ef4c0ef:
+    uuid: 476a7f4e-31d8-4a6f-9175-d66e2ef4c0ef
+    id: image_scale
+    weight: null
+    data:
+      width: 650
+      height: null
+      upscale: true
+  f3bdf6d7-69b6-4961-b99a-6cb315835ab8:
+    uuid: f3bdf6d7-69b6-4961-b99a-6cb315835ab8
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

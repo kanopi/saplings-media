@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_350w
+label: responsive_350w
+effects:
+  5e4558b0-9521-4e32-a611-3c10c946f4b6:
+    uuid: 5e4558b0-9521-4e32-a611-3c10c946f4b6
+    id: image_scale
+    weight: null
+    data:
+      width: 350
+      height: null
+      upscale: true
+  10809ab3-fdc2-44ab-90f9-fdb8f57466ee:
+    uuid: 10809ab3-fdc2-44ab-90f9-fdb8f57466ee
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: responsive_2_3_1550w
+label: responsive_2_3_1550w
+effects:
+  9ee5e483-1b3c-44b2-8ab9-e2f90de8c38c:
+    uuid: 9ee5e483-1b3c-44b2-8ab9-e2f90de8c38c
+    id: focal_point_scale_and_crop
+    weight: null
+    data:
+      width: 1550
+      height: 2325
+      crop_type: focal_point
+  a2bc262d-58e5-480a-acb9-1253d4a23a6d:
+    uuid: a2bc262d-58e5-480a-acb9-1253d4a23a6d
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp

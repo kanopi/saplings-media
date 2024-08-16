@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_1100w
+label: responsive_1100w
+effects:
+  4c130079-92fb-455b-9b6c-edf62eb15140:
+    uuid: 4c130079-92fb-455b-9b6c-edf62eb15140
+    id: image_scale
+    weight: null
+    data:
+      width: 1100
+      height: null
+      upscale: true
+  fe9f7212-764e-4637-a553-1c9e80c2d7b0:
+    uuid: fe9f7212-764e-4637-a553-1c9e80c2d7b0
+    id: image_convert
+    weight: 10
+    data:
+      extension: webp
