@@ -16,6 +16,8 @@ install:
   - media_file_delete
   - media_library_edit
 config:
+  # If the config we're importing already exists, skip it.
+  strict: false
   import:
     focal_point: '*'
   actions:
@@ -45,7 +47,7 @@ config:
           third_party_settings: {  }
           weight: 0
           region: content
-    # Configures to delete the file when you delete a media entity.
+    # Delete the file when you delete a media entity.
     media_file_delete.settings:
       simple_config_update:
         delete_file_default: true
@@ -54,11 +56,6 @@ config:
       grantPermission: 'download media'
     user.role.authenticated:
       grantPermission: 'download media'
-    # @TODO Hide core's Files view that Local Video recipe imports.
+    # Hide core's Files view.
     views.view.files:
-      ensure_exists:
-        id: views.view.files
-        # Uncomment when #3303127 is merged.
-        # set:
-        #   key: status
-        #   value: false
+      disable: {}
