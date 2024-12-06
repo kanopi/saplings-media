@@ -49,7 +49,7 @@ config:
           region: content
     # Delete the file when you delete a media entity.
     media_file_delete.settings:
-      simple_config_update:
+      simpleConfigUpdate:
         delete_file_default: true
     # Allow all users to download media.
     user.role.anonymous:
