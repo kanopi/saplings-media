@@ -7,7 +7,7 @@ effects:
   4c130079-92fb-455b-9b6c-edf62eb15140:
     uuid: 4c130079-92fb-455b-9b6c-edf62eb15140
     id: image_scale
-    weight: null
+    weight: -10
     data:
       width: 1100
       height: null

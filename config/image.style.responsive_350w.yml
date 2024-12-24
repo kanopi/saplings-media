@@ -7,7 +7,7 @@ effects:
   5e4558b0-9521-4e32-a611-3c10c946f4b6:
     uuid: 5e4558b0-9521-4e32-a611-3c10c946f4b6
     id: image_scale
-    weight: null
+    weight: -10
     data:
       width: 350
       height: null
