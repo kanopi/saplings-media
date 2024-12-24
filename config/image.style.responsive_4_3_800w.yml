@@ -9,7 +9,7 @@ effects:
   9c4367d1-3ce5-48f6-80ef-1b9225637249:
     uuid: 9c4367d1-3ce5-48f6-80ef-1b9225637249
     id: focal_point_scale_and_crop
-    weight: null
+    weight: -10
     data:
       width: 800
       height: 600

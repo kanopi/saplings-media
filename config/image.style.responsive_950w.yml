@@ -7,7 +7,7 @@ effects:
   c0e81120-e852-48d0-97a7-521836586347:
     uuid: c0e81120-e852-48d0-97a7-521836586347
     id: image_scale
-    weight: null
+    weight: -10
     data:
       width: 950
       height: null
